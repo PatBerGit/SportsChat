@@ -1,9 +1,8 @@
 import React from 'react';
 import './header.css';
-//import logoUrl from '../../assets/logo.svg';
 const Header = () => (
   <div className="header">
-    
+    <p className="title">Sports chat</p>
   </div>
 )
 export default Header;

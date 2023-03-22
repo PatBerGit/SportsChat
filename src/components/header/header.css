@@ -3,7 +3,9 @@
     text-align: center;
     background: #222;
   }
-  .header img {
-    width: 100px;
-    height: 13px;
-  }
+.title{
+  color: #F57F17;
+  font-size: 48px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
