@@ -7,7 +7,7 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   height: 100vh;
   width: 35vw;
   position: fixed;
-  background-color: ${colors.lightbrown};
+  background-color: ${colors.primaryColor};
   z-index: 1;
 
   display: flex;
@@ -29,6 +29,6 @@ export const StyledLink = styled.a`
   text-decoration: none;
 
   :hover {
-    color: ${colors.yellowmellow};
+    color: ${colors.accentColor};
   }
 `;

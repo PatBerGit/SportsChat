@@ -1,9 +1,9 @@
 import React from 'react';
-import './footer.css';
+import { StyledFooter } from "./footer.styled";
 const Footer = () => (
-  <div className="footer">
+  <StyledFooter>
     <p className="contactUs">Kontakta oss</p>
     <p className="email"><a href="mailto:info@sportschat.se">info@sportschat.se</a></p>
-  </div>
+  </StyledFooter>
 )
 export default Footer;

@@ -33,11 +33,14 @@ export const StyledHamburger = styled.button<{ open: boolean }>`
     transition: all 0.3s linear;
     transform-origin: 1px;
     background-color: ${({ open }) =>
-      open ? colors.pearl : colors.lightbrown};
+      open ? colors.accentColor : colors.secondaryColor};
 
     :first-child {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
     }
+    :hover {
+        color: ${colors.pearl};
+      }
 
     :nth-child(2) {
       opacity: ${({ open }) => (open ? "0" : "1")};
