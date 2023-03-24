@@ -7,11 +7,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Badge
-        text="Fotboll"
-        filled={true}
-      />
-      <Footer />
+      <div className="card-container"                                                   >
+        <Badge
+          text="Fotboll"
+          filled={false}
+        />
+      </div>
+        <Footer />
+      
     </div>
   );
 }
