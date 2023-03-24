@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Badge
         text="Fotboll"
+        filled={true}
       />
       <Footer />
     </div>
