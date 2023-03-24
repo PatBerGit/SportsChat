@@ -10,3 +10,13 @@ export interface ButtonInterface{
     href: string;
     icon?: JSX.Element;
 }
+
+export interface CardInterface{
+    indicator?: string,
+    badge?: BadgeInterface,
+    image?: string,
+    title: string,
+    subtitle?: string,
+    body: string,
+    btn: ButtonInterface
+}
