@@ -9,6 +9,9 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   position: fixed;
   background-color: ${colors.primaryColor};
   z-index: 1;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
 
   display: flex;
   flex-direction: column;
@@ -26,7 +29,9 @@ export const StyledLink = styled.a`
   padding: 0 2rem;
   font-size: 2rem;
   color: ${colors.pearl};
-  text-decoration: none;
+  text-decoration: none;  
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
 
   :hover {
     color: ${colors.accentColor};

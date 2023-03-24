@@ -1,11 +1,24 @@
 .header {
-    padding: 25px 0;
+    display: flex;
+    padding: 5px 0;
     text-align: center;
     background: #222;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    height: 15vh;
+
   }
 .title{
   color: #F57F17;
   font-size: 48px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin-left: 2.9rem;
+}
+.userAccount{
+  height: 60px;
+  width: 60px;
+  margin-right: 1rem;
 }

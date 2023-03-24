@@ -5,11 +5,12 @@ import { colors } from "../../global";
 export const StyledHamburger = styled.button<{ open: boolean }>`
   position: fixed;
   left: ${({ open }) => (open ? "29vw" : "3vw")};
-  top: 3vw;
+  top: ${({ open }) => (open ? "3vh" : "5vh")};
   width: 2rem;
   height: 2rem;
   padding: 0;
   background: transparent;
+  margin-left: 0.8rem;
 
   display: flex;
   flex-direction: column;
