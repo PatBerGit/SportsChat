@@ -1,4 +1,3 @@
-import React from 'react';
 import { StyledFooter } from "./footer.styled";
 const Footer = () => (
   <StyledFooter>
