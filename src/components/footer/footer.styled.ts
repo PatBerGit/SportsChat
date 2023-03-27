@@ -5,5 +5,5 @@ export const StyledFooter = styled.footer`
     padding: 35px 0;
     text-align: center;
     background: ${colors.lightblue};
-    width: 100%;
+    width: 97.2vw;
 `;

@@ -5,7 +5,7 @@
     background: #000;
     align-items: center;
     justify-content: center;
-    gap: 10vw;
+    gap: 1vw;
     height: 8rem;
     width: 100%;
     position: fixed !important;
@@ -17,12 +17,12 @@ h1{
   font-size: 48px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 0;
+
 }
 .userAccount{
   height: 60px;
   width: 60px;
-  margin: 2rem 3.5rem 2rem 0;
+  margin: 2rem 0.5em 0.5em 0;
   position: fixed;
   top:0;
   right:0;

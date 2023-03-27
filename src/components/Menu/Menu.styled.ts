@@ -12,7 +12,6 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   margin:auto;
   justify-content: center;
   align-items: center;
-
   display: flex;
   flex-direction: column;
   padding: 10rem 0;
