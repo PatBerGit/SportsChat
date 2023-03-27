@@ -60,8 +60,8 @@ body {
 }
 
 .main-content{
-  min-height: 100%;
-  padding-top: 150px;
+  min-height: 100vh;
+  margin-top: 150px;
 }
 
 h1,

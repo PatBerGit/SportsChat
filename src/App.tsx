@@ -8,22 +8,23 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
-      <body>
         <main className='main-content'>
           <section className="card-container">
             <Card 
-              body='Hi'
-              title='Title' 
-              image='https://source.unsplash.com/random'
+              body=''
+              title='2023-03-27' 
+              image1='https://sportteamslogo.com/api?key=e55cd0547d2a4d0797f4eb4a5e2aea43&size=big&tid=35'
+              image1-alt= "Manchester United"
+              image2='https://sportteamslogo.com/api?key=e55cd0547d2a4d0797f4eb4a5e2aea43&size=big&tid=17'
+              image2-alt= "Manchester City"
               indicator='Cmore'
-              subtitle='Manchester derby'
+              subtitle='kl 19:00'
               badge={{
                 text: "Fotboll",
                 filled: true,
               }}
               btn={{ 
-                text: "Button",
+                text: "Chatta",
                 href: '#',
                 type: "primary",
                 filled: true,
@@ -32,9 +33,6 @@ function App() {
             />
           </section>
         </main>
-        
-      </body>
-      
       <Footer />
       
     </div>

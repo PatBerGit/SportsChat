@@ -7,7 +7,7 @@ const Button = ({text, filled, type, href, icon}:ButtonInterface) => {
         <button>
           <a href={href} className={`${styles.btn} 
           ${styles[type.toLowerCase()]} ${filledClass}`}>
-          <span>{text}</span>
+          <span className={`${styles.text}`}>{text}</span>
           {icon}
           </a>
         </button>

@@ -15,10 +15,11 @@
 .body{
     max-width: var(--content);
 }
+
 .image{
     width: 100%;
     max-width: 100%;
-    aspect-ratio: 16/12;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: var(--round-md);
 }
@@ -32,5 +33,10 @@ aspect-ratio: 1/1;
 display: grid;
 place-items: center;
 padding: var(--space-sm);
-transform: translate(50%, -50%);
+transform: translate(-10%, 10%);
+color:hsl(var(--bkg));
+}
+
+.title{
+    font-size: 1.6rem;
 }

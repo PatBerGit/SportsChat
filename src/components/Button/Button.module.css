@@ -7,6 +7,7 @@
     font-size: var(--fs-300);
     line-height: var(--lh-1);
     text-decoration: none;
+    text-align: center;
     cursor: pointer;
     background-color: var(--fill);
     color: var(--type);
@@ -16,7 +17,9 @@
     transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
     padding: .5em 1em;
     border-radius: var(--round-sm);
-    max-width: max-content;
+}
+.text{
+    text-align: center;
 }
 
 .btn svg {
