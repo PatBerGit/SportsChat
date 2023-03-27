@@ -10,25 +10,29 @@ function App() {
       <Header />
       
       <body>
-        <section className="card-container">
-        <Card 
-          body='Hi'
-          title='Title' 
-          image='https://source.unsplash.com/random'
-          indicator='Cmore'
-          subtitle='Manchester derby'
-          badge={{
-            text: "Fotboll",
-            filled: true,
-          }}
-          btn={{ 
-            text: "Button",
-            href: '#',
-            type: "primary",
-            filled: true,
-            icon: <PhoneIcon />
-        }}/>s
-      </section>
+        <main className='main-content'>
+          <section className="card-container">
+            <Card 
+              body='Hi'
+              title='Title' 
+              image='https://source.unsplash.com/random'
+              indicator='Cmore'
+              subtitle='Manchester derby'
+              badge={{
+                text: "Fotboll",
+                filled: true,
+              }}
+              btn={{ 
+                text: "Button",
+                href: '#',
+                type: "primary",
+                filled: true,
+                icon: <PhoneIcon />
+              }}
+            />
+          </section>
+        </main>
+        
       </body>
       
       <Footer />
