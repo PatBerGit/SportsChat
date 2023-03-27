@@ -9,6 +9,7 @@
     border-left: .1em solid white;
     max-width: var(--content);
     margin: var(--space-lg);
+    overflow: hidden;
 }
 
 .body{

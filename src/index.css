@@ -59,6 +59,11 @@ body {
   color: hsl(var(--text));
 }
 
+.main-content{
+  min-height: 100%;
+  padding-top: 150px;
+}
+
 h1,
 h2,
 h3,
